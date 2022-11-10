@@ -1,0 +1,91 @@
+content {
+    max-width: 1600px;
+    width: 80%;
+    margin: 0 auto;
+}
+#hero-msg h1, #hero-msg h4 {
+    text-align: center;
+}
+.button-box {
+    text-align: center;
+}
+
+main section {
+    text-align: center;
+}
+
+#background {
+    height: 725px;
+    background-color: #2596be;
+}
+body {
+    background-color: #dcd9d9;
+}
+header {
+    background-color: #264c5e;
+}
+nav a {
+    text-align: center;
+    color: #dcd9d9;
+    text-decoration: none;
+}
+nav a:hover {
+    background-color: #dcd9d9;
+    color: #2596be;
+    text-decoration: none;
+}
+.book, .join{
+    background-color: #264c5e;
+    color: #dcd9d9;
+    text-decoration: none;
+}
+.book:hover, .join:hover{
+    background-color: #2596be;
+    color: #b46268;
+    text-decoration: none;
+}
+.msg {
+    background-color: #b46268;
+    
+}
+.msg h2 {
+    color: #dcd9d9;
+}
+.msg p {
+    color:#264c5e;
+}
+footer p {
+    font-size: 1.2em;
+}
+footer {
+    background-color: #264c5e;
+    color: #b46268;
+}
+footer a {
+    text-decoration: none;
+    color: #b46268;
+}
+footer a:hover {
+    text-decoration: none;
+    color: #dcd9d9;
+    background-color: #2596be;
+}
+.home-title {
+    background-color: #010e13;
+    color: #b46268;
+}
+h4 {
+    background-color: #2596be;
+    color: #dcd9d9;
+}
+.logo {
+    width: 80px;
+}
+.icon {
+    width: 80px;
+}
+
+/* --primary-color: #264c5e   ;
+  --secondary-color: #2596be ;
+  --accent1-color: #dcd9d9;
+  --accent2-color: #b46268 */
