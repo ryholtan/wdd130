@@ -2,7 +2,47 @@
 
 
 .main-para {
-    background-color: blue;
+    background-color: rgb(161, 146, 161);
     font-size: 1.8em;
     line-height: 1.5em;
+}
+img {
+    width: 80%;
+}
+/* * {
+    border: 2px solid blue;
+} */
+h1 {
+    text-align: center;
+}
+nav, footer {
+    background-color: steelblue;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+img {
+    
+    width: 80%;
+    display: block;
+    margin: 0 auto;
+}
+main p {
+    width: 80%;
+    margin: 15px auto;
+    text-align: center;
+}
+main {
+    background-color: rgb(59, 155, 172);
+}
+footer p {
+    font-size: 20px;
+    margin: 20px auto;
+}
+a:hover {
+    background-color: white;
+    color: steelblue;
+}
+a {
+    font-size: 1.5em;
 }
