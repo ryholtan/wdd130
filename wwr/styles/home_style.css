@@ -1,7 +1,11 @@
-content {
+
+
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Shojumaru&display=swap');
+
+
+
+#contents {
     max-width: 1600px;
-    width: 80%;
-    margin: 0 auto;
 }
 #hero-msg h1, #hero-msg h4 {
     text-align: center;
@@ -9,25 +13,38 @@ content {
 .button-box {
     text-align: center;
 }
-
+main section img {
+    box-sizing: border-box;
+}
 main section {
     text-align: center;
 }
-
+#logo link {
+    padding-top: 5px;
+}
 #background {
     height: 725px;
     background-color: #2596be;
 }
 body {
     background-color: #dcd9d9;
+    font-family: Shojumaru, Arial, serif;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
+}
+h2 {
+    margin: 0;
 }
 header {
     background-color: #264c5e;
+    font-family: Anton, serif, Arial;
 }
 nav a {
     text-align: center;
     color: #dcd9d9;
     text-decoration: none;
+    padding: 35px;
 }
 nav a:hover {
     background-color: #dcd9d9;
@@ -38,21 +55,30 @@ nav a:hover {
     background-color: #264c5e;
     color: #dcd9d9;
     text-decoration: none;
+    font-size: 1.8em;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 .book:hover, .join:hover{
     background-color: #2596be;
     color: #b46268;
     text-decoration: none;
+    font-size: 2em;
 }
 .msg {
     background-color: #b46268;
-    
+    line-height: 1.5em;
+    padding: 35px;
 }
 .msg h2 {
     color: #dcd9d9;
 }
 .msg p {
     color:#264c5e;
+    font-size: 0.8em;
+    font-family: Anton, serif, Arial;
+    padding-bottom: 15px;
 }
 footer p {
     font-size: 1.2em;
@@ -60,6 +86,8 @@ footer p {
 footer {
     background-color: #264c5e;
     color: #b46268;
+    padding: 25px 50px;
+    margin-top: 200px;
 }
 footer a {
     text-decoration: none;
@@ -70,9 +98,15 @@ footer a:hover {
     color: #dcd9d9;
     background-color: #2596be;
 }
+footer .social img {
+    padding-top: 15px;
+}
 .home-title {
     background-color: #010e13;
     color: #b46268;
+    font-family: Anton, serif, Arial;
+    font-size: 2em;
+    margin-top: 10px;
 }
 h4 {
     background-color: #2596be;
@@ -83,8 +117,15 @@ h4 {
 }
 .icon {
     width: 80px;
+    padding-top: 10px;
 }
-
+.rivers-card, .camping-card, .rapids-card {
+    margin: 200px 0;
+}
+.card-img {
+    border: 10px solid #050505;
+    
+}
 /* --primary-color: #264c5e   ;
   --secondary-color: #2596be ;
   --accent1-color: #dcd9d9;
