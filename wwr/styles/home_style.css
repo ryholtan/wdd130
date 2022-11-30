@@ -3,7 +3,29 @@
 @import url('https://fonts.googleapis.com/css2?family=Anton&family=Shojumaru&display=swap');
 
 
-
+#faq-text {
+    position: absolute;
+    margin-top: 207px;
+    
+    
+}
+#faqs {
+    z-index: -5;
+    margin-top: 125px;
+    margin-bottom: -207px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    text-align: center;
+    
+}
+#backdrop-pic {
+    width: 100%;
+    height: 100%;
+    opacity: 40%;
+    z-index: -1;
+    
+    
+}
 #contents {
     max-width: 1600px;
     
@@ -44,6 +66,7 @@ main section {
 }
 #logo link {
     padding-top: 5px;
+    
 }
 #background {
     height: 725px;
@@ -67,6 +90,7 @@ header {
     font-family: Anton, serif, Arial;
     display: grid;
     grid-template-columns: 150px auto;
+    
    
 }
 nav {
