@@ -43,8 +43,8 @@ textarea {
     border: 1px solid #999;
 }
 
-    input:focus,
-    textarea:focus {
+input:focus,
+textarea:focus {
     /* Additional highlight for focused elements */
     border-color: #000;
 }
