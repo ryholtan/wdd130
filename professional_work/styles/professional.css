@@ -1,0 +1,185 @@
+/* if you are using any Google fonts change the font names below to your fonts. 
+Any spaces in your font name should be replaced with a +. 
+Fonts are separated by a | */
+@import url('https://fonts.googleapis.com/css?family=Nerko+One|Permanent+Marker');
+
+:root {
+  /* change the values below to your colors from your palette */
+  --primary-color: #1d1d1e   ;
+  --secondary-color: #ada1a0 ;
+  --accent1-color: #7b5a5a;
+  --accent2-color: #460b0c;
+
+  /* change the values below to your chosen font(s) */
+  --heading-font: "Permanent Marker";
+  --paragraph-font: Nerko One, Helvetica, sans-serif;
+
+  /* these colors below should be chosen from among your palette colors above */
+  --headline-color-on-white: #1d1d1e;  /* headlines on a white background */ 
+  --headline-color-on-color: #ada1a0; /* headlines on a colored background */ 
+  --paragraph-color-on-white: #1d1d1e; /* paragraph text on a white background */ 
+  --paragraph-color-on-color: #ada1a0; /* paragraph text on a colored background */ 
+  --paragraph-background-color: #1d1d1e  ;
+  --nav-link-color: #7b5a5a;
+  --nav-background-color: #460b0c;
+  --nav-hover-link-color: #ada1a0;
+  --nav-hover-background-color: #460b0c;
+  /*to use these, do: var(--name)*/
+}
+#content {
+  max-width: 2000px;
+}
+header {
+  
+  height: 275px;
+  width: 2000px;
+  display: grid;
+  grid-template-columns: repeat(1fr, 10); 
+  grid-template-rows: repeat(1fr, 3);
+  background-color: #1d1d1e;
+  margin-bottom: 100px;
+  
+}
+#logo_link {
+  grid-column: 2/4;
+  grid-row: 1/4;
+  z-index: 1;
+  justify-self: right;
+}
+.header-nav {
+  justify-content: space-around;
+  padding: 10px;
+  grid-column: 4/10;
+  grid-row: 2/3;
+  text-align: right;
+  font-size: 3em;
+  color: #1d1d1e;
+  border: solid #7b5a5a;
+  background-color: #460b0c;
+}
+nav a {
+  color: #ada1a0;
+  padding-left: 50px;
+  padding-right: 50px;
+  text-emphasis: none;
+  text-decoration: none;
+}
+nav a:hover {
+  color:#7b5a5a;
+  background-color: #460b0c;
+  text-emphasis: none;
+  text-decoration: none;
+}
+.contact-banner {
+  background-color: #460b0c;
+  padding-left: 0px;
+  margin: 50px;
+  grid-row-end: 4;
+  grid-column: 6/10;
+  font-size: 1.5em;
+  color: #ada1a0;
+  display: grid;
+  grid-template-columns: repeat(1fr, 5);
+  border: solid #460b0c;
+  border: solid #7b5a5a;
+  background-color: #460b0c;
+}
+.contanct_info {
+  padding-left: 0px;
+  margin: 0px;
+  grid-column-start: 1;
+  justify-self: center;
+  align-self: center;
+}
+.social {
+  padding: 0px;
+  border: solid, 3px #1d1d1e;
+  background-color: #460b0c;
+  padding-left: 0px;
+  margin: 0px;
+  justify-self: center;
+  align-self: center;
+  grid-column-end: 6;
+}
+footer {
+  background-color: #1d1d1e;
+  height: 200px;
+  width: 2000px;
+  display: grid;
+  grid-template-columns: 1fr 2fr; 
+  grid-template-rows: 1fr 1fr 2fr;
+  margin-bottom: 0px;
+}
+.trademark {
+  color:#ada1a0;
+  font-size: 1.5em;
+  grid-row-end: 4;
+  grid-column-end: 4;
+}
+.footer_contanct_info p {
+  grid-area: 1/1/2/2;
+  color: #ada1a0;
+}
+.footer-nav {
+  justify-content: space-around;
+  padding: 10px;
+  grid-area: 2/2/4/3;
+  text-align: right;
+  font-size: 3em;
+  color: #1d1d1e;
+  border: solid #7b5a5a;
+  background-color: #460b0c;
+}
+main {
+  width: 2000px;
+}
+#background {
+  margin-top: -100px;
+  background-color: #7b5a5a;
+  display: grid;
+  grid-template-columns: repeat(13, 1fr);
+  grid-template-rows: 1fr 1fr;
+  justify-self: center;
+}
+.msg1 {
+  margin-top: 100px;
+  grid-row: 1/2;
+  align-self: center;
+  grid-column: 1/8;
+  z-index: 1;
+  font-size: 2em;
+  background-color: #ada1a0;
+  text-align: center;
+  border:solid #1d1d1e;
+}
+.church_website {
+  margin-top: 100px;
+  width:fit-content;
+  border: solid 20px #460b0c;
+  grid-row: 1/2;
+  align-self: center;
+  grid-column: 5/13;
+  z-index: 0;
+  opacity: 40%;
+}
+.msg2 {
+  grid-row: 1/2;
+  align-self: center;
+  grid-column: 5/14;
+  z-index: 1;
+  font-size: 2em;
+  grid-row: 2/3;
+  background-color: #ada1a0;
+  text-align: center;
+  border:solid #1d1d1e;
+}
+.family_pic {
+  width:fit-content;
+  border: solid 20px #460b0c;
+  grid-row: 1/2;
+  align-self: center;
+  grid-column: 1/8;
+  z-index: 0;
+  opacity: 60%;
+  grid-row: 2/3;
+}
