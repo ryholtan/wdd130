@@ -28,6 +28,10 @@ Fonts are separated by a | */
 }
 #content {
   max-width: 2000px;
+  font-family: Nerko One, Arial, serif;
+}
+p {
+  font-family: Permanent Marker, Arial, serif;
 }
 header {
   
@@ -47,6 +51,7 @@ header {
   justify-self: right;
 }
 .header-nav {
+  
   justify-content: space-around;
   padding: 10px;
   grid-column: 4/10;
@@ -58,6 +63,7 @@ header {
   background-color: #460b0c;
 }
 nav a {
+  
   color: #ada1a0;
   padding-left: 50px;
   padding-right: 50px;
