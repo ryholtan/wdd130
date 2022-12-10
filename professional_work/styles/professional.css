@@ -28,10 +28,10 @@ Fonts are separated by a | */
 }
 #content {
   max-width: 2000px;
-  font-family: Nerko One, Arial, serif;
+  font-family: "Nerko One", Arial, serif;
 }
 p {
-  font-family: Permanent Marker, Arial, serif;
+  font-family: "Permanent Marker", Arial, serif;
 }
 header {
   
@@ -99,7 +99,7 @@ nav a:hover {
 }
 .social {
   padding: 0px;
-  border: solid, 3px #1d1d1e;
+  border: solid 3px #1d1d1e;
   background-color: #460b0c;
   padding-left: 0px;
   margin: 0px;
