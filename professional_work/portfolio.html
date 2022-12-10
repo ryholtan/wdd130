@@ -7,99 +7,118 @@
     <link type="text/css" rel="stylesheet" href="styles/professional.css">
     <title>Portfolio/Resume</title>
 </head>
-<body>
-    <header>
-        <div>
-            <!--back banner-->
-            <div>
-                <!--header links-->
-                <nav>
-                    <a href="index.html">Get To Know Me</a>
-                    <a href="portfolio.html">Portfolio/Resume</a>
-                    <a href="app_store.html">Store</a>
-                </nav>
-            </div>
+<body id="content">
+
+    <header>        
+        <div class="header-nav">
+            <!--header links-->
+            <nav>
+                <a href="index.html">Get To Know Me</a>
+                <a href="portfolio.html">Portfolio/Resume</a>
+                <a href="app_store.html">Store</a>
+            </nav>
         </div>
-        <div>
+    
+        <section id="logo_link">
             <!--logo-->
-            <a href="index.html" id="logo_link">
-                <img class="logo" src="images/amy logo pic.jpg" alt="Holt Logo">
+            <a href="index.html" >
+                <img class="logo" src="images\amy logo pic.jpg" width="450" height="350" alt="Holt Logo">
             </a>
-        </div>
-        <div>
-            <!--contact banner-->
-            <div>
-                <!--contact images/ links-->
-                <div class="contanct_info">
-                    <p>|||| Phone- 775-910-2140 |||| Email- ryholtan51@gmail.com ||||</p>
-                        
-                        <div class="social">
-                            <a href="https://linkedin.com/in/ryholtan" target="_blank">
-                                <img src="images/linked-in-logo.png" alt="linkedin">
-                            </a>
-                            <a href="https://github.com/ryholtan/my_grams" target="_blank">
-                                <img src="images/git_hub_logo.png" alt="github">
-                            </a>
-                        </div>
-                </div>
+        </section>
+
+        <section class="contact-banner">
+            <div class="contanct_info">
+                <p>|||| Phone- 775-910-2140 |||| Email- ryholtan51@gmail.com ||||</p>
+            </div>  
+            <div class="social">
+                <a href="https://linkedin.com/in/ryholtan" target="_blank">
+                    <img src="images/linked-in-logo.png" width="50" height="50" alt="linkedin">
+                </a>
+                <a href="https://github.com/ryholtan/my_grams" target="_blank">
+                    <img src="images/git_hub_logo.png" width="50" height="50" alt="github">
+                </a>
             </div>
-        </div>
+        </section>
     </header>
 
     <main>
-        <div id="background"></div>
-            <div>
-                <h1>
-                    Like many portfolios, this is a collection of some of my projects either at home or for school. If you see something you would like to imporve on or to know more about, just reach out to my github for the source. Thanks for looking!!
-                </h1>
-                <!--top text/pic-->
-                <section>
-                    <h2>This is the title and other details of my last role with a company</h2>
-                    <p>This is the description of my last role with a company
+        <div id="portfolio-background">
+
+                <section class="intro">
+                    <h1>
+                        Like many portfolios, this is a collection of some of my work either at home or for school/employment. If you see something you would like to know more about, just reach out to my LinkedIn or Github. Thanks for looking!!
+                    </h1>
+                </section>
+
+
+                <section class="jobs">
+                    <h2>[ Software Eng Student ] [ BYU-I ] [ Sep 19 ] - [ Current ]</h2>
+                    <p>--Switched from automotive in Fall 22. Building second app and this page, first two Python classes + Standard C + HTML + CSS in first semester.--
                     </p>
-                    <h2>This is the title and other details of my second to last role with a company</h2>
-                    <p>This is the description of my second to last role with a company
+                    <h2>[ App developer ] [ Holt Project Management ] [ Oct 22 ] - [ Current ]</h2>
+                    <p>--Current development and design of my own marketable phone apps.--
+                    </p>
+                    <h2>[ Expeditor ] [ Action Motor Sports ] [ Jan 22 ] - [ April 22 ]</h2>
+                    <p>--Inspect, clean, deliver and load/unload customer motorsport vehicles. Help mechanics when they need it. I also painted the whole shop while doing all this.--
+                    </p>
+                    <h2>[ Tire/Alignment Technician ] [ Les Schwab ] [ Mar 21 ] - [ June 21 ]</h2>
+                    <p>--Diagnose and inspect customer vehicles, remove and replace ball joints, shocks, tierods, tires, and wheels.--
                     </p>
                 </section>
                 
-                <section>
+                <section class="side_pic">
                     
                     <a class='desk_link' href="https://github.com/ryholtan/my_grams" target="_blank">
-                        <img class="desk_pic" src="images/desk-with-multiple-computer-monitors-displaying-parsing-code-programming-language-compiling-empty-software-developing-agency-office-servers-cloud-computing-big-data-algorithms.jpg" alt="Picture of desk with tech style work.">
+                        <img class="desk_pic" src="images/desk-with-multiple-computer-monitors-displaying-parsing-code-programming-language-compiling-empty-software-developing-agency-office-servers-cloud-computing-big-data-algorithms.jpg" width="550" height="800" alt="Picture of desk with tech style work.">
                     </a>
                 </section>
-            </div>
+            
 
-            <div>
-                <!--bottom text/pic-->
+            
+             
                 
-                <section>
-                    <h2>My latest home project</h2>
-                    <p>description of my latest home project</p>
+                <section class="home_project">
+                    <h2>The Memorizer</h2>
+                    <p>My latest finished project is a windows app that takes any phrase and prints out that phrase in a modified 
+                        way so the user can look at the modified phrase to try to memorize the real phrase. Example:========================== INPUT: This is a 
+                        phrase I would like to memorize, can the Memorizer help me with that? ======================= OUTPUT: T_ _ _ i_ a p_ _ _ _ _ I w_ _ _ _ l_ _ _ t_
+                         m_ _ _ _ _ _ _, c_ _ t_ _ M_ _ _ _ _ _ _ _ h_ _ _ m_ w_ _ _ t_ _ _? =================================== -You can see screenshots and download on my Store page-</p>
                     <a class='code_project_link' href="app_store.html">
-                        <img class="01_pic" src="images/abstract-binary-code-background.jpg" alt="0's and 1's pic">
+                        <img class="The_memorizer" src="images/Memorizer.png" width="650" height="600" alt="0's and 1's pic">
 
                     </a>
                 </section>
-            </div>
-
+            
+        </div>
     </main>
 
-    <footer>
-        <p>2022 - Ryan Holt</p>
-        <div class="contanct_info">
-            <p>|||| Phone- 775-910-2140 |||| Email- ryholtan51@gmail.com ||||</p>
-                
-                <div class="social">
-                    <a href="https://linkedin.com/in/ryholtan" target="_blank">
-                        <img src="images/linked-in-logo.png" alt="linkedin">
-                    </a>
-                    <a href="https://github.com/ryholtan/my_grams" target="_blank">
-                        <img src="images/git_hub_logo.png" alt="github">
-                    </a>
-                </div>
-        </div>
-    </footer>
     
+    <footer>
+        <div class="footer-nav">
+            <!--header links-->
+            <nav>
+                <a href="index.html">Get To Know Me</a>
+                <a href="portfolio.html">Portfolio/Resume</a>
+                <a href="app_store.html">Store</a>
+            </nav>
+        </div>
+    
+
+        <a class="trademark" href="site-plan.html">2022 - Ryan Holt - Site Plan</a>
+
+        <div class="footer_contanct_info">
+            <p>|||| Phone- 775-910-2140 |||| Email- ryholtan51@gmail.com ||||</p>
+            <div class="footer_social">
+                <a href="https://linkedin.com/in/ryholtan" target="_blank">
+                    <img src="images/linked-in-logo.png" width="50" height="50" alt="linkedin">
+                </a>
+                <a href="https://github.com/ryholtan/my_grams" target="_blank">
+                    <img src="images/git_hub_logo.png" width="50" height="50" alt="github">
+                </a>
+            </div>
+        </div> 
+
+        
+    </footer>
 </body>
 </html>
