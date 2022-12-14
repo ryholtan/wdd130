@@ -27,8 +27,9 @@ Fonts are separated by a | */
   /*to use these, do: var(--name)*/
 }
 #content {
-  max-width: 2000px;
+  max-width: 1600px;
   font-family: "Nerko One", Arial, serif;
+  margin: 0 auto;
 }
 p {
   font-family: "Permanent Marker", Arial, serif;
@@ -36,39 +37,45 @@ p {
 header {
   
   height: 275px;
-  width: 2000px;
   display: grid;
   grid-template-columns: repeat(10, 1fr); 
-  grid-template-rows: repeat(4, 1fr);
+  grid-template-rows: repeat(5, 75px);
   background-color: #1d1d1e;
   margin-bottom: 100px;
   
 }
 #logo_link {
-  grid-column: 2/4;
+  grid-column: 2/5;
   grid-row: 1/4;
   z-index: 1;
-  justify-self: right;
+  justify-self: center;
+  margin-top: 15px;
 }
 .header-nav {
-  
   justify-content: space-around;
   padding: 10px;
-  grid-column: 4/11;
-  grid-row: 3/4;
-  text-align: right;
-  font-size: 3em;
+  grid-column: 5/11;
+  grid-row: 2/3;
+  text-align: center;
+  font-size: 1.5vw;
   color: #1d1d1e;
   border: solid #7b5a5a;
   background-color: #460b0c;
+  margin-right: 15px;
+ 
+}
+nav {
+  align-self: center;
+  justify-self: center;
+  padding-top: 10px;
 }
 nav a {
-  
   color: #ada1a0;
   padding-left: 50px;
   padding-right: 50px;
   text-emphasis: none;
   text-decoration: none;
+  
 }
 nav a:hover {
   color:#7b5a5a;
@@ -78,24 +85,25 @@ nav a:hover {
 }
 .contact-banner {
   background-color: #460b0c;
+  border: solid #7b5a5a;
   padding-left: 0px;
-  margin: 50px;
-  grid-row: 4/5;
+  grid-row-end: 5;
   grid-column: 5/11;
-  font-size: 1.5em;
+  font-size: .7vw;
   color: #ada1a0;
   display: grid;
   grid-template-columns: repeat(5, 1fr);
-  border: solid #460b0c;
-  border: solid #7b5a5a;
-  background-color: #460b0c;
+  z-index: 1;
+  margin-right: 50px;
+  margin-left: 50px;
 }
 .contanct_info {
-  padding-left: 0px;
+  padding: 0px;
   margin: 0px;
   grid-column: 1/5;
   justify-self: center;
   align-self: center;
+  background-color: #460b0c;
 
 }
 .social {
@@ -111,34 +119,33 @@ nav a:hover {
 footer {
   background-color: #1d1d1e;
   height: 200px;
-  width: 2000px;
   display: grid;
   grid-template-columns: 1fr 2fr; 
-  grid-template-rows: 1fr 1fr 2fr;
+  grid-template-rows: 1fr 2fr 1fr;
   margin-bottom: 0px;
 }
 .trademark {
   color:#ada1a0;
-  font-size: 1.5em;
+  font-size: 1vw;
   grid-row-end: 4;
   grid-column-end: 4;
 }
 .footer_contanct_info p {
-  grid-area: 1/1/2/2;
+  grid-column: 1/3;
+  grid-row: 2/3;
   color: #ada1a0;
 }
 .footer-nav {
-  justify-content: space-around;
+  justify-content:center;
   padding: 10px;
-  grid-area: 2/2/4/3;
-  text-align: right;
-  font-size: 3em;
+  grid-column-start:2 ;
+  grid-row-end: 3;
+  text-align: center;
+  font-size: 1vw;
   color: #1d1d1e;
   border: solid #7b5a5a;
   background-color: #460b0c;
-}
-main {
-  width: 2000px;
+  margin-bottom: 10px;
 }
 #background {
   margin-top: -100px;
@@ -149,36 +156,39 @@ main {
   justify-self: center;
 }
 .msg1 {
-  margin-top: 100px;
-  grid-row: 1/2;
+  grid-row-end: 2;
   align-self: center;
   grid-column: 1/8;
   z-index: 1;
-  font-size: 2em;
+  font-size: 1vw;
   background-color: #ada1a0;
   text-align: center;
   border:solid #1d1d1e;
+  padding: 10px;
+  margin-top: 155px;
 }
 .church_website {
-  margin-top: 100px;
-  width:fit-content;
-  border: solid 20px #460b0c;
-  grid-row: 1/2;
+  margin-top: 125px;
+  grid-row-end: 2;
   align-self: center;
-  grid-column: 5/13;
+  grid-column: 4/12;
   z-index: 0;
   opacity: 40%;
+}
+.temple {
+  border: solid 20px #460b0c;
 }
 .msg2 {
   grid-row: 1/2;
   align-self: center;
-  grid-column: 5/14;
+  grid-column: 6/14;
   z-index: 1;
-  font-size: 2em;
+  font-size: 1vw;
   grid-row: 2/3;
   background-color: #ada1a0;
   text-align: center;
   border:solid #1d1d1e;
+  padding: 10px;
 }
 .family_pic {
   width:fit-content;
@@ -274,3 +284,45 @@ main {
   text-align: left;
   text-decoration: underline;
 }
+/* Dropdown Button */
+.dropbtn {
+  background-color: #04AA6D;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #ada1a0;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  background-color: #7b5a5a;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #ddd;}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {display: block;}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {background-color: #3e8e41;}
